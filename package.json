@@ -1,0 +1,32 @@
+{
+  "name": "tfjs-practice",
+  "version": "1.0.0",
+  "description": "Learn how to use tensorflow.js",
+  "main": "main.js",
+  "scripts": {
+    "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
+    "build": "NODE_ENV=production parcel build index.html --public-url ./",
+    "build:node": "NODE_ENV=production parcel build main.js  --no-minify -d dist_node",
+    "node": "node dist_node/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/tfjs-practice.git"
+  },
+  "keywords": [
+    "tfjs",
+    "tensorflow"
+  ],
+  "author": "Masashi Hirano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shisama/tfjs-practice/issues"
+  },
+  "homepage": "https://github.com/shisama/tfjs-practice#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.6.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0"
+  }
+}
