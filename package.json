@@ -2,9 +2,10 @@
   "name": "tfjs-practice",
   "version": "1.0.0",
   "description": "Learn how to use tensorflow.js",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "babel-node main.js"
+    "start": "babel-node index.babel.js",
+    "build": "babel index.babel.js -o index.js"
   },
   "repository": {
     "type": "git",
