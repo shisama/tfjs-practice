@@ -27,6 +27,7 @@
     "@tensorflow/tfjs": "^0.6.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.7.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
