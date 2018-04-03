@@ -4,10 +4,7 @@
   "description": "Learn how to use tensorflow.js",
   "main": "main.js",
   "scripts": {
-    "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
-    "build": "NODE_ENV=production parcel build index.html --public-url ./",
-    "build:node": "NODE_ENV=production parcel build main.js  --no-minify -d dist_node",
-    "node": "node dist_node/main.js"
+    "start": "babel-node main.js"
   },
   "repository": {
     "type": "git",
