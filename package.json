@@ -4,8 +4,8 @@
   "description": "Learn how to use tensorflow.js",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.babel.js",
-    "build": "babel index.babel.js -o index.js"
+    "start": "babel-node src/index.js",
+    "build": "babel src/index.js -d dist"
   },
   "repository": {
     "type": "git",
